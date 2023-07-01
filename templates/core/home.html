@@ -1,0 +1,16 @@
+{% extends 'core/base.html' %}
+{% block title %}Home{% endblock %}
+{% load static %}
+{% block  background %}{%  static 'core/img/1_slHeZngyeUr7ypEz7MNL5w.png' %}{% endblock %}
+
+{% block headers %}
+    <h1>Jose Boccalandro</h1>
+    <span class="subheading">Software Engineer</span>
+{% endblock %}
+
+{% block body_block %}
+    <div class="container">
+    <h1 class="text-center">RESUME</h1>
+    <p class="text-center"><a href="{% static "core/img/Resume_updated.pdf" %}">Click here and you can find my Resume!</a></p>
+    </div>
+{% endblock %}

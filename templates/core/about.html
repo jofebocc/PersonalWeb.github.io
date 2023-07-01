@@ -1,0 +1,28 @@
+{% extends 'core/base.html' %}
+{% block title %}About{% endblock %}
+{% block body_block %}
+    {% load static %}
+    <!-- Contenido Principal -->
+    <div class="container">
+      <div class="row">   
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="{% static 'core/img/foto 1.jpg' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Jose Boccalandro</h2>
+          <p>A highly skilled and motivated software engineer with 3 years of experience in developing innovative software solutions. Proficient in
+            Python, C++, C, and Django, with a strong focus on Django and REST frameworks. Committed to delivering high-quality code,
+            meeting project deadlines, and exceeding client expectations. Seeking new opportunities to leverage my skills and contribute to a
+            dynamic and collaborative team</p>
+        </div>
+      </div>  
+    </div>
+
+{% endblock %}
+
+{% block  background %}{%  static 'core/img/G2CM_FI028_Learn_Article_Images-Hard_Skills_vs._Soft_Skills_Image1_V1a.png' %}{% endblock %}
+
+{% block headers %}
+    <h1>Jose Boccalandro</h1>
+    <span class="subheading">Software Engineer</span>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends 'core/base.html' %}
+{% block title %}Contact{% endblock %}
+{% load static %}
+{% block  background %}{%  static 'core/img/contact-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+    <h1>Jose Boccalandro</h1>
+    <span class="subheading">Software Engineer</span>
+{% endblock %}
+
+{% block body_block %}
+    <!-- Contenido Principal -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Feel free to reach out to me using the provided contact details. Whether you have questions, inquiries, or simply want to connect, I'm always happy to hear from you.</p>
+          <br>
+          <p><b>Phone Number:</b> +1 (281)-630-8756</p>
+
+          <p><b>Email:</b> josefboccalandro@gmail.com</p>
+        </div>
+      </div>
+    </div>
+{% endblock %}
